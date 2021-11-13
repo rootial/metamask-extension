@@ -20,8 +20,6 @@ import {
   TEXT_ALIGN,
 } from '../../../../helpers/constants/design-system';
 
-import './index.scss';
-
 const STATUSES = {
   INSTALLING: 'installing',
   RUNNING: 'running',
