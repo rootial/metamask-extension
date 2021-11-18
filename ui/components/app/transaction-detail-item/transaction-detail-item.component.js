@@ -29,11 +29,7 @@ export default function TransactionDetailItem({
         </Typography>
         <div className="transaction-detail-item__detail-values">
           {detailText && (
-            <Typography
-              variant={TYPOGRAPHY.H6}
-              className="transaction-detail-item__detail-text"
-              color={COLORS.UI4}
-            >
+            <Typography variant={TYPOGRAPHY.H6} color={COLORS.UI4}>
               {detailText}
             </Typography>
           )}
@@ -41,7 +37,7 @@ export default function TransactionDetailItem({
             color={COLORS.BLACK}
             fontWeight={FONT_WEIGHT.BOLD}
             variant={TYPOGRAPHY.H6}
-            className="transaction-detail-item__total"
+            margin={[1, 1]}
           >
             {detailTotal}
           </Typography>
@@ -60,11 +56,7 @@ export default function TransactionDetailItem({
           </Typography>
         )}
 
-        <Typography
-          variant={TYPOGRAPHY.H7}
-          color={COLORS.UI4}
-          className="transaction-detail-item__subtext"
-        >
+        <Typography variant={TYPOGRAPHY.H7} color={COLORS.UI4} align="end">
           {subText}
         </Typography>
       </div>
